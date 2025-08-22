@@ -11,3 +11,13 @@ Memory addressing is importent!!!
 Use good varble name.
 
 Make code more effecinet using drawings
+
+8/22/2025
+
+Method is a contaner to a group of oprations on each other that can be used on the name (Basicly functions)
+
+Main is a unic method that is the first one that will always be run first
+
+("CSC" +1+2) This is string condision so the output is CSC12 sents the debugger reads left to right
+
+hasy table is importent 'a" = 97
