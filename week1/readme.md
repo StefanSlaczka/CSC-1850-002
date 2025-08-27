@@ -21,3 +21,9 @@ Main is a unic method that is the first one that will always be run first
 ("CSC" +1+2) This is string condision so the output is CSC12 sents the debugger reads left to right
 
 hasy table is importent 'a" = 97
+
+8/25/2025
+
+sick
+
+8/27/2025
