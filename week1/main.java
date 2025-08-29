@@ -4,18 +4,20 @@ public class main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.err.println("Enter a number: ");
-        int i = scanner.nextInt();
-        if (prime(i)) {
-            System.err.println("The number is prime");
+        int year = scanner.nextInt();
+        if (IfLeapYear(year)) {
+            System.err.println("True");
         }
         else {
-            System.err.println("The number is not prime");
+            System.err.println("False");
         }
-
     }
-    public static Boolean prime (int i){
-        for (int d = 2; d < i; d ++){
-            if (i%d == 0) return false;
-        } return true;
-    } 
+    public static Boolean IfLeapYear (int year){
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 }
