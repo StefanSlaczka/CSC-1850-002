@@ -27,3 +27,7 @@ hasy table is importent 'a" = 97
 sick
 
 8/27/2025
+
+Did looping in java and made a finding the real prine java program
+
+8/29/2025
