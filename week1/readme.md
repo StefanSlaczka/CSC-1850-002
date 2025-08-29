@@ -33,3 +33,6 @@ Did looping in java and made a finding the real prine java program
 8/29/2025
 
 Using method
+
+Overloading 2 methods having the same name have benfit you don't have to think about name
+Methods can have the same name with different arouments but only care the return type after the retrun type
