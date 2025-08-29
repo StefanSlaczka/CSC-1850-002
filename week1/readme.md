@@ -31,3 +31,5 @@ sick
 Did looping in java and made a finding the real prine java program
 
 8/29/2025
+
+Using method
