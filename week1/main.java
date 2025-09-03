@@ -1,22 +1,33 @@
 import java.util.Scanner;
 
 public class main{
-	public static void main(String[] args){
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the amount of number you want to see FizzBuzz");
-		int number = scanner.nextInt();
-		FizzBuzz(number);
-	}
-	public static void FizzBuzz(int number){
-		for (int i = 0; i <= number; i++){
-			if (i % 15 == 0){
-				System.out.println("FizzBuzz");
-			} else if (i % 5 == 0){
-				System.out.println("Buzz");
-			}else if (i % 3 == 0){
-				System.out.println("Fizz");
+	public static void main(String[] args){		// insulise it
+		// int[] arr;
 
-			}else { System.out.println(i);}
+		// int arr[] = new int[size];
+
+		// int[] arry = {40,55,63,77};
+		
+		// Find the size of an array
+		//arr.length;
+
+		int size = 10;
+		int[] list = new int[size];
+		int number = 0;
+
+		recieveInput(list, size);
+		double avg = findAvg(list, size);
+	}
+
+	public static void recieveInput(int [] list, int size) {
+		Scanner scanner = new Scanner(System.in);
+		for (int i=0; i<size; i++) {
+			System.err.println("input number");
+			list[i] = scanner.nextInt();
 		}
+	}
+	public static double findAvg(int [] list, int size) {
+		double avg = 0;
+		// finsh code
 	}
 }
