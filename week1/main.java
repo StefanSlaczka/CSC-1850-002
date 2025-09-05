@@ -1,41 +1,25 @@
-import java.util.Scanner;
-
-// make a bubble sort
+import java.util.Arrays;
 
 public class main{
-	public static void main(String[] args){		// insulise it
-		// int[] arr;
+	public static void main(String[] args){
+		int[] arr = {1,9,2,7,30,3};
+		int size = arr.length;
 
-		// int arr[] = new int[size];
+		for(int i = 0; i < size -1; i++){
 
-		// int[] arry = {40,55,63,77};
-		
-		// Find the size of an array
-		//arr.length;
+			boolean swapped = false;
 
-		int size = 10;
-		int[] list = new int[size];
-		int number = 0;
+			for (int j = 0; j < size - i - 1; j++){
 
-		recieveInput(list, size);
-		double avg = findAvg(list, size);
-		System.err.println(avg);
-	}
-
-	public static void recieveInput(int [] list, int size) {
-		Scanner scanner = new Scanner(System.in);
-		for (int i=0; i<size; i++) {
-			System.err.println("input number");
-			list[i] = scanner.nextInt();
+				if (arr[j] > arr[j + 1]){
+					
+					int temp = arr[j];
+					arr[j] = arr[j + 1];
+					arr[j + 1] = temp;
+					swapped = true;
+				}
+			}
 		}
-	}
-	public static double findAvg(int [] list, int size) {
-		double avg = 0;
-		// finsh code
-		for (int j=0; j < size; j ++ ) {
-			avg += list[j];
-		}
-		avg /= size;
-		return avg;
+		System.out.println(Arrays.toString(arr));
 	}
 }
