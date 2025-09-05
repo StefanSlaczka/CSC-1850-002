@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// make a bubble sort
+
 public class main{
 	public static void main(String[] args){		// insulise it
 		// int[] arr;
@@ -17,6 +19,7 @@ public class main{
 
 		recieveInput(list, size);
 		double avg = findAvg(list, size);
+		System.err.println(avg);
 	}
 
 	public static void recieveInput(int [] list, int size) {
@@ -29,5 +32,10 @@ public class main{
 	public static double findAvg(int [] list, int size) {
 		double avg = 0;
 		// finsh code
+		for (int j=0; j < size; j ++ ) {
+			avg += list[j];
+		}
+		avg /= size;
+		return avg;
 	}
 }
