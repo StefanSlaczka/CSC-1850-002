@@ -18,7 +18,7 @@ Method is a contaner to a group of oprations on each other that can be used on t
 
 Main is a unic method that is the first one that will always be run first
 
-("CSC" +1+2) This is string condision so the output is CSC12 sents the debugger reads left to right
+/9///("CSC" +1+2) This is string condision so the output is CSC12 sents the debugger reads left to right
 
 hasy table is importent 'a" = 97
 
@@ -36,3 +36,7 @@ Using method
 
 Overloading 2 methods having the same name have benfit you don't have to think about name
 Methods can have the same name with different arouments but only care the return type after the retrun type
+
+9/05/2025
+
+classes and objects
