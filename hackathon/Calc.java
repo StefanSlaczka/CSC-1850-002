@@ -21,17 +21,14 @@ class Calc {
         }
         else if (opp.equals("*")) {
             sum = a * b;
+        }else if (opp.equals("%")) {
+            sum = a % b;
         }
         else if (opp.equals("/")) {
             if(b == 0){
                 System.out.println("can't divide by 0");
             }
             sum = a / b;
-        else if (opp.equals("%")) {
-            if(b == 0){
-                System.out.println("can't divide by 0");
-            }
-            sum = a % b;
         }else {
             System.out.println("Error: did not put correct opp");
         }
