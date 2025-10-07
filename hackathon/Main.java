@@ -7,6 +7,7 @@ class Main{
         
         System.out.println("Please enter your first number: ");
         double a = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Please enter your symble: ");
         // did not output for some reson
