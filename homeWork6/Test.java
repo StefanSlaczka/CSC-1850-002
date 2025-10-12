@@ -11,8 +11,8 @@ class Test{
 
 		Fan f2 = new Fan();
 		f2.setSpeed(Fan.MEDIUM);
-		f2.setRadius(6.7);
-		f2.setColor("green");
+		f2.setRadius(5);
+		f2.setColor("blue");
 		f2.setOn(false);
 
 		System.out.println("Fan 2");
