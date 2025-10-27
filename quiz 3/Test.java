@@ -7,6 +7,12 @@ public class Test{
 		p.toString();
 		System.out.println(p);
 		System.out.println(s.name);
+		;
+		;
+		;
+		;
+		;
+		
 		System.out.println(s.age);
 		System.out.println(s.studentID);
 		s.toString();
