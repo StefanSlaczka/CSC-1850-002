@@ -26,5 +26,8 @@
     
     } while(!game)
     
-
+    3 files 
+        main    - inputs
+        making grid - updates grid
+        endResult - checks if game is over
 */
