@@ -1,33 +1,6 @@
-/*
-    first make a grid
-        ???
-        ???
-        ???
+class Main {
+    public static void main(String[] args) {
+        
+    }
 
-    use input to change the board
-        with row and colum
-            row 0 - 2
-            column 0 -2
-
-    how to make this
-
-    make grid
-    String draw;
-
-    do {
-
-        inputs if spot is not taken loop back if it is
-        check if winner
-
-        check if no-one won after 4 loops result = draw
-
-        computer input if spot is not taken loop back if it is
-        check if loser
-    
-    } while(!game)
-    
-    3 files 
-        main    - inputs
-        making grid - updates grid
-        endResult - checks if game is over
-*/
+}
