@@ -1,0 +1,1 @@
+Overload does not care about output but have the same different input
